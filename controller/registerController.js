@@ -6,7 +6,7 @@ import cloudinary from "cloudinary";
 import bcrypt from "bcrypt"; // Import bcrypt for password hashing
 
 const register = async (req, res) => {
-  console.log(req.file);
+  console.log("error",req.file);
   try {
     let profilePictureUrl = null;
 
